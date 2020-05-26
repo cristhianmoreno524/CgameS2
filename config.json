@@ -1,0 +1,27 @@
+{
+    "app": {
+        "name": "Aplicacion Backend para classes de CRISMO",
+        "port": 5000,
+        "bind": "0.0.0.0"
+    },
+    "database": {
+        "default":"firestore",
+        "mongodb":{
+            "databaseName":"Mi Base de Datos",
+            "url":"mongodb://localhost:27017"
+        },
+        "firebase":{
+            "url":"https://cgames-2e972.firebaseio.com"
+        }
+
+    },
+    "jwt": {
+       "secret": "cgames",
+       "timeToExpireInMinutes": 60
+    },
+    "login":{
+        "username": "admin",
+        "password": "qwezxc",
+        "type": "Admin"
+    }
+}

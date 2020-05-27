@@ -65,7 +65,7 @@ const General = function(){
           model = require("../models/firestore-model")(General.firebase.firestore());
           break;
         default:
-          model = require("../models/sqlite-model")(General.firebase.firestore());
+          model = require("../models/firestore-model")(General.firebase.firestore());
           break;
       }
 

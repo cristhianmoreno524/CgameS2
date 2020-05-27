@@ -69,7 +69,7 @@ const General = function(){
           break;
       }
 
-      return model; 
+      return model;
 
      };
 

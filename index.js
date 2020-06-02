@@ -13,8 +13,7 @@ const bodyParser = require('body-parser');
 let usersController = require('./app/controllers/users_firebase')();
 let classesController = require ('./app/controllers/classes')();
 let loginController = require ('./app/controllers/login')();
-
-
+    
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
